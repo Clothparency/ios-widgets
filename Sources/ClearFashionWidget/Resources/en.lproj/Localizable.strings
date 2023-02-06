@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  ios-widgets
+
+  Created by Max Chrétien on 27/01/2023.
+  
+*/
+// Button
+"ButtonIntroText" = "Discover the origin and environmental impact of this model";
+"ButtonIntroTextWithoutMaterialImpacts" = "Discover the main countries of production of this model";
+"ButtonVerifedBy" = "Verified by";
+
+// Header
+"OriginAndImpactTitle" = "Origin and environmental impact";
+"ProductDescription %@" = "%@ has chosen transparency by having this information verified by the independent third party Clear Fashion, thanks to the analysis of supporting documents.";
+
+// Countries of production section
+"CountriesOfProductionTitle" = "Main countries of production";
+"Weaving" = "Weaving";
+"Dyeing_And_Printing" = "Dyeing and printing";
+"Manufacturing" = "Manufacturing";
+"Stitching" = "Stitching";
+"Assembly" = "Assembly";
+"Finishing" = "Finishing";
+
+// Materials impact section
+
+"ImpactOfMaterialsTitle" = "Impact of materials on the environment";
+
+"RawMaterial" = "Raw material";
+"RawMaterialProductInfo %lld" = "Contains at least %lld%%%% recycled content";
+"RawMaterialDescription" = "Recycled materials use existing resources and limit the production of new materials.";
+
+"Recyclability" = "Recyclability";
+"RecyclabilityDescription" = "This garment can be collected, sorted and recycled to be incorporated into new products.";
+
+"Usage" = "Usage";
+"UsageProductInfo" = "Rejects plastic microfibers into the environment during washing";
+"UsageDescription %lld" = "This garment contains %lld%%%% synthetic materials. Synthetics release microfibers during washing, contributing to ocean plastic pollution.";
+
+"Danger" = "Risk substance(s)";
+"DangerProductInfo %@" = "Contains hazardous substances: %@";
+"DangerDescription" = "Laboratory tests have identified these substances, deemed to be at risk by the European Commission.";
+
+"ConcerningSubstancesProductInfo %@" = "Contains substances of very high concern: %@";
+
+"DangerAndConcerningSubstancesProductInfo %@ %@" = "Contains hazardous substances: %@ and substances of very high concern: %@";
+
+
+// Footer
+
+"FooterDescription %@" = "Product sheet on environmental qualities and characteristics: %@";
+"FooterUpdate %@" = "Update: %@";

@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Max Chrétien on 01/02/2023.
+  
+*/
+// Button
+"ButtonIntroText" = "Découvrez l’origine et l’impact environnemental de ce modèle";
+"ButtonIntroTextWithoutMaterialImpacts" = "Découvrez les principaux pays de production de ce modèle";
+"ButtonVerifedBy" = "Vérifié par ";
+
+// Header
+"OriginAndImpactTitle" = "Origine et impact environnemental";
+"ProductDescription %@" = "%@ a fait le choix de la transparence en faisant vérifier ces informations par le tiers indépendant Clear Fashion, grâce à l’analyse de documents preuves.";
+
+// Countries of production section
+"CountriesOfProductionTitle" = "Principaux pays de production";
+"Weaving" = "Tissage";
+"Dyeing_And_Printing" = "Teinture et impression";
+"Manufacturing" = "Confection";
+"Stitching" = "Piquage";
+"Assembly" = "Montage";
+"Finishing" = "Finition";
+
+// Materials impact section
+
+"ImpactOfMaterialsTitle" = "Impact des matières sur l’environnement";
+
+"RawMaterial" = "Matière première";
+"RawMaterialProductInfo %lld" = "Comporte au moins %lld%%%% de matières recyclées";
+"RawMaterialDescription" = "Les matières recyclées utilisent des ressources déjà existantes et limitent la production de nouvelles matières.";
+
+"Recyclability" = "Recyclabilité";
+"RecyclabilityDescription" = "Ce vêtement peut être collecté, trié et recyclé pour être incorporé dans de nouveaux produits.";
+
+"Usage" = "Utilisation";
+"UsageProductInfo" = "Rejette des microfibres plastiques dans l’environnement lors du lavage";
+"UsageDescription %lld" = "Ce vêtement contient %lld%%%% de matières synthétiques. Les matières synthétiques rejettent des microfibres lors du lavage, contribuant à la pollution plastique des océans.";
+
+"Danger" = "Substance(s) à risque";
+"DangerProductInfo %@" = "Contient des substances dangereuses : %@";
+"DangerDescription" = "Des tests en laboratoire ont permis d’identifier ces substances, jugées à risque par la Commission Européenne.";
+
+"ConcerningSubstancesProductInfo %@" = "Contient des substances extrêmement préoccupantes : %@";
+
+"DangerAndConcerningSubstancesProductInfo %@ %@" = "Contient des substances dangereuses: %@ et des substances extrêmement préoccupantes: %@";
+
+// Footer
+
+"FooterDescription %@" = "Fiche produit relative aux qualités et caractéristiques environnementales : %@";
+"FooterUpdate %@" = "Mise à jour : %@";
