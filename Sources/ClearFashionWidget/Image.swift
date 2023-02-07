@@ -12,19 +12,12 @@ extension Image {
     init(packageResource name: String) {
         #if canImport(UIKit)
         guard let image = UIImage(named: name, in: Bundle.getBundle(), with: nil) else {
-            self.init(name)
+            self.init(name, bundle: Bundle.getBundle())
             return
         }
         self.init(uiImage: image)
-        #elseif canImport(AppKit)
-        guard let path = Bundle.getBundle().path(forResource: name, ofType: ".png"),
-              let image = NSImage(contentsOfFile: path) else {
-            self.init(name)
-            return
-        }
-        self.init(nsImage: image)
         #else
-        self.init(name)
+        self.init(name, bundle: Bundle.getBundle())
         #endif
     }
 }

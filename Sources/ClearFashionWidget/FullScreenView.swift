@@ -22,7 +22,7 @@ struct FullScreenView: View {
             Button(action: toggleFullScreenWidget) {
                 Image(packageResource: "Cross")
                     .frame(width: 14.0, height: 14.0)
-            }
+            }.buttonStyle(.borderless)
         }.padding(16)
          .frame(height: 50)
         ScrollView {

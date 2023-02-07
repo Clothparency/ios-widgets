@@ -44,6 +44,8 @@ struct ButtonView: View {
                 RoundedRectangle(cornerRadius: 4)
                     .stroke(Color.gray30, lineWidth: 1)
             )
+            .frame(maxWidth: .infinity, minHeight: 70, alignment: .topLeading)
+            .background(Color.white)
             .padding(16)
     }
 }

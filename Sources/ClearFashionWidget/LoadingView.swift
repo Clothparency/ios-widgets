@@ -12,7 +12,7 @@ struct LoadingView: View {
         VStack  {
             
         }
-        .frame(maxWidth: .infinity, minHeight: 100, alignment: .topLeading)
+        .frame(maxWidth: .infinity, minHeight: 70, alignment: .topLeading)
         .padding(16)
     }
 }

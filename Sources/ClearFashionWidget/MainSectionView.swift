@@ -22,10 +22,12 @@ struct MainSectionView: View {
             ZStack {
                 Button(action: toggleFullScreenWidget) {
                     ButtonView(hasMaterialImpacts: product!.hasMaterialImpacts)
-                }.popover(
+                }
+                .buttonStyle(.borderless)
+                .popover(
                     isPresented: $isDisplayFullScreen,
                     arrowEdge: .bottom
-                ) { FullScreenView(isDisplayFullScreen: $isDisplayFullScreen, product: product!) }
+                ) { FullScreenView(isDisplayFullScreen: $isDisplayFullScreen, product: product!).background(Color.white) }
 
             }
         }
