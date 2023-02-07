@@ -28,29 +28,10 @@ https://github.com/Clothparency/ios-widgets/releases/latest
 
 ### Installation
 
-There are three ways to install ClearFashionWidget in your project:
+There are two ways to install ClearFashionWidget in your project:
 
-- manual installation
-- cocoapods
 - Swift Package Manager
-
-**Manual installation**
-
-To manually install ClearFashionWidget simply drag and drop all the file contained in the [Sources](https://github.com/Clothparency/ios-widgets/tree/main/Sources/ClearFashionWidget)
-folder inside your project.
-
-**CocoaPods**
-
-ClearFashionWidget is also available as a pod on [CocoaPods](https://cocoapods.org/pods/ClearFashionWidget "ClearFashionWidget cocoapods").
-Add the dependency to your Podfile (choose the release version you prefer):
-
-```ruby
-target 'MyApp' do
-	pod 'ClearFashionWidget', '~> 1.0'
-end
-```
-
-and then run pod install (or pod update).
+- cocoapods
 
 **Swift Package Manager**
 
@@ -82,6 +63,19 @@ let package = Package(
     ]
 )
 ```
+
+**CocoaPods**
+
+ClearFashionWidget is also available as a pod on [CocoaPods](https://cocoapods.org/pods/ClearFashionWidget "ClearFashionWidget cocoapods").
+Add the dependency to your Podfile (choose the release version you prefer):
+
+```ruby
+target 'MyApp' do
+	pod 'ClearFashionWidget', '~> 1.0'
+end
+```
+
+and then run pod install (or pod update).
 
 ## Sample Project
 
