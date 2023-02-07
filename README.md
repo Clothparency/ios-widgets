@@ -32,11 +32,11 @@ There are three ways to install ClearFashionWidget in your project:
 
 - manual installation
 - cocoapods
-- Swift Package Manager (with support for linux platform)
+- Swift Package Manager
 
 **Manual installation**
 
-To manually install ClearFashionWidget simply drag and drop all the file contained in the [Source](https://github.com/Clothparency/ios-widgets/tree/main/Source "Source")
+To manually install ClearFashionWidget simply drag and drop all the file contained in the [Sources]([https://github.com/Clothparency/ios-widgets/tree/main/Source](https://github.com/Clothparency/ios-widgets/tree/main/Sources/ClearFashionWidget) "Sources")
 folder inside your project (except for the info.plist file).
 
 **CocoaPods**
