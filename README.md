@@ -36,8 +36,8 @@ There are three ways to install ClearFashionWidget in your project:
 
 **Manual installation**
 
-To manually install ClearFashionWidget simply drag and drop all the file contained in the [Sources]([https://github.com/Clothparency/ios-widgets/tree/main/Source](https://github.com/Clothparency/ios-widgets/tree/main/Sources/ClearFashionWidget) "Sources")
-folder inside your project (except for the info.plist file).
+To manually install ClearFashionWidget simply drag and drop all the file contained in the [Sources](https://github.com/Clothparency/ios-widgets/tree/main/Sources/ClearFashionWidget)
+folder inside your project.
 
 **CocoaPods**
 
