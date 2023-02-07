@@ -14,8 +14,8 @@
 
 ### Display your Clear Fashion widgets on your native iOS and macOS app.
 
-![Swift Support](https://img.shields.io/badge/Swift-5.5+-orange.svg)
-![Platform](https://img.shields.io/badge/Platforms-iOS%20%7c%20macOS-lightgray.svg?style=flat)
+[![Swift Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FClothparency%2Fios-widgets%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/Clothparency/ios-widgets)
+[![Platform](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FClothparency%2Fios-widgets%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/Clothparency/ios-widgets)
 [![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![CocoaPods](https://img.shields.io/badge/cocoapods-supported-blueviolet)](https://cocoapods.org/pods/ClearFashionWidget)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Clothparency/ios-widgets/main/LICENSE.md)
