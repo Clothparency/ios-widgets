@@ -103,10 +103,10 @@ import ClearFashionWidget
 struct ContentView: View {
     var body: some View {
         ClearFashionWidget(
-          brandId = "The id of your brand as given by Clear Fashion",
-          productIdentifier = "The identifier of your product as given by Clear Fashion",
-          lang = "fr" // Must be either "fr" or "en"
-      )
+          brandId: "The id of your brand as given by Clear Fashion",
+          productId: "The identifier of your product as given by Clear Fashion",
+          lang: "fr" // Must be either "fr" or "en"
+        )
     }
 }
 

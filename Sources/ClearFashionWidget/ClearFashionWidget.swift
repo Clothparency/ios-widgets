@@ -23,7 +23,7 @@ public struct ClearFashionWidget: View {
     }
     
     public var body: some View {
-        let fetchUrl: String = "https://app.clear-fashion.com/api/partners/v1/brands/\(brandId)/agec/products/\(productId)?locale=\(lang)"
+        let fetchUrl: String = "https://cdn.clear-fashion.com/api/partners/v1/brands/\(brandId)/agec/products/\(productId)?locale=\(lang)"
         
         MainSectionView(product: product)
             .onAppear {
